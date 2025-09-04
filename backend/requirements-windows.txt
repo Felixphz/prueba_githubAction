@@ -1,0 +1,30 @@
+# ========================================
+# PRODUCTION DEPENDENCIES (Windows Compatible)
+# ========================================
+Flask==2.3.3
+Flask-SQLAlchemy==3.0.5
+Flask-CORS==4.0.0
+Flask-Migrate==4.0.5
+# psycopg2-binary no es compatible con Windows, usar SQLite para desarrollo local
+python-dotenv==1.0.0
+# gunicorn no es necesario en Windows, usar flask run
+
+# ========================================
+# DEVELOPMENT & TESTING DEPENDENCIES
+# ========================================
+pytest==7.4.2
+pytest-flask==1.2.0
+pytest-cov==4.1.0
+pytest-mock==3.11.1
+
+# ========================================
+# CODE QUALITY TOOLS
+# ========================================
+black==23.7.0
+flake8==6.0.0
+isort==5.12.0
+
+# ========================================
+# DEVELOPMENT UTILITIES
+# ========================================
+# pre-commit==3.3.3  # Instalar manualmente si es necesario
